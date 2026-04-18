@@ -40,7 +40,7 @@ names = [
 client = TelegramClient("session", api_id, api_hash)
 
 async def main():
-    await client.start()
+    await client.connect()
 
     print("Bot started successfully!")
 
